@@ -1,0 +1,1 @@
+Some graphical assets to make the appearnace of the site better includes some bootstrap files.

@@ -1,0 +1,1 @@
+The images from user profile pictures and their cover photos will be stored here
