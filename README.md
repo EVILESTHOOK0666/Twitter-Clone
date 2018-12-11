@@ -1,0 +1,2 @@
+# Twitter-Clone
+This repository contains a full functional twitter clone with the MYSQL database structure,just like twitter it can provide the users with the facilities like posting tweets,commenting,messaging,following people,retweeting,liking and even deletion of tweets.It has a timeline feature showing recent posts and a dedicated profile page for editing your profile.It has a gallery feature as well.
