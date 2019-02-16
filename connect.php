@@ -1,6 +1,6 @@
 <?php
 
-$link=mysqli_connect("shareddb1e.hosting.stackcp.net","TWITTERDB2-363720d4","qwerty12","TWITTERDB2-363720d4");
+$link=mysqli_connect("localhost","username","password","Database name");
 if(mysqli_connect_error())
 {
   die("There was an unexpected error");
