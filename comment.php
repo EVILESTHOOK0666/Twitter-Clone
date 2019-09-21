@@ -2,7 +2,7 @@
 session_start();
 $username=$_SESSION['user'];
 echo $username;
-$date=date('Y/m/d h:i:s a');
+$date=date('Y-m-d h:i:s');
 include("connect.php");
 if (!empty($_POST)) 
 {
@@ -13,7 +13,7 @@ if (!empty($_POST))
   $result=mysqli_query($link,$query);
   $var=rand(1,10000);
   $status=$username." Replied on Your Post";
-  $query3="SELECT USER_ID FROM TWEETS WHERE TWEET_ID='".$name."';";
+  $query3="SELECT USER_ID FROM TWEETS WHERE TWEET_ID='".$id."';";
   $result3=mysqli_query($link,$query3);
   $row2=mysqli_fetch_assoc($result3);
   $query2="INSERT INTO NOTIFICATION VALUES('$var','$status','$date','$username','".$row2['USER_ID']."');";
